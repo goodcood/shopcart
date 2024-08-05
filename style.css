@@ -84,7 +84,7 @@
     }
     .btn-buy-now {
         background-color: rgb(109, 41, 54);
-        color: rgb(255, 255, 255);
+        color: white;
         border: none;
         border-radius: 2vw;
         width: 15vw;
@@ -97,6 +97,7 @@
         padding: 0vw;
     }
     .btn-primary:hover {
+       color: white;
         background-color: rgb(109, 41, 54);
         box-shadow: rgb(109, 41, 54) 0px 0px 0.5vw;
     }
