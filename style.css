@@ -1,4 +1,4 @@
-    * {
+ * {
         font-weight: 600;
         color: rgb(41, 48, 40);
         font-family: "Chelsea Market", system-ui;
@@ -10,10 +10,10 @@
     nav {
         background-color: rgb(230, 230, 230);
     }
-    .navbar-toggler {
+    .button-nav-two {
         background-color: transparent;
         border: none;
-        margin-left: 280px;
+        margin-left: 315px;
     }
     .navbar-nav {
         width: 35vw;
