@@ -1,148 +1,182 @@
-        * {
-            font-weight: 600;
-            color: rgb(41, 48, 40);
-            font-family: "Chelsea Market", system-ui;
-        }
-        header {
-            position: relative;
-            height: fit-content;
-        }
-        nav {
-            background-color: rgb(230, 230, 230);
-        }
-        .navbar-toggler,
-        .button-nav-two {
-            background-color: transparent;
-            border: none;
-        }
-        .navbar-nav {
-            width: 35vw;
-            gap: 2vw;
-            margin-left: 1vw ;
-        }
-        li {
-            background-color: white;
-            text-align: center;
-            border-radius: 1vw;
-        }
-        .acco-cart-search {
-        font-weight: 100;
-            width: fit-content;
-            margin-right: -0.6vw;
-        }
-        .form-search {
-            min-width: 20vw;
+               * {
+                font-weight: 600;
+                color: rgb(41, 48, 40);
+                font-family: "Chelsea Market", system-ui;
+            }
         
+            header {
+                position: relative;
+                height: fit-content;
+            }
         
-        }
-        input {
-            width: 40vw;/*min-width كانت*/
-            position: relative;
+            .navbar-toggler,
+            .button-nav-two {
+                background-color: transparent;
+                border: none;
+            }
+        
+            .navbar-nav { 
+                width: 35vw;
+                gap: 2vw;
+                margin-left: 1vw ;
+            }
+            li {
+                background-color: white;
+                text-align: center;
+                border-radius: 1vw;
+                box-shadow: rgb(136, 133, 133) 0px 0px 5px;
+            }
+            .acco-cart-search {
+            font-weight: 100;
+                width: fit-content;
+                margin-right: -0.6vw;
+            }
+            .form-search {
+                min-width: 20vw;
+            
+            
+            }
+            input {
+                width: 40vw;
+                position: relative;
 
-        }
-        /* input::after {
-            content: "\f002"; 
-            font-family: "Font Awesome"; 
-            font-weight: 900;
-            position: absolute;
-            right: 50%;
-            top: 50%;
-            transform: translateY(-50%);
-            pointer-events: none;
-            color: gray;
-        }  */
-        .icon-account-cart {
-            max-width: 52vw;
-            margin-right: -1.4vw;
-        }
-        .cart-account {
-            font-size: 0.8vw;
-            font-weight: 200;
-        }
+            }
 
-        .fa-user,
-        .fa-cart-shopping {
-            margin: 0.4vw;
-            font-size: 0.8vw;
-        }
-        /* navbar two */
+            .icon-account-cart {
+                max-width: 52vw;
+                margin-right: -1.4vw;
+            }
+            .cart-account {
+                font-size: 0.9vw;
+                font-weight: 200;
+            }
 
-        #navbar-Supported-Content {
-            top: 7px;
-            position: relative;
-        }
-
-
-        /* container img under navbar */
-
-        .container-pra-under-nav {
-            height: 25.6vw;
-            padding: 4vw 0vw 0vw 7vw;
+            .fa-user,
+            .fa-cart-shopping {
+                margin: 0.4vw;
+                font-size: 0.8vw;
+            }
+            /* navbar two */
+            .container-navbar-two {
+                height: 80px;
+                position: relative;
             background: white;
-            background-size: 28vw 30vw;
-            position: relative;
-            background-color: #6ac5c5;
-        }
+    }
+            
 
-        .text {
-            font-weight: 900;
-            font-size: 3vw;
-            color: rgb(109, 41, 54);
-        }
+            .navbar-two {
+                top: 7px;
+                position: relative;
+                z-index: 1;
+            }
 
-        .img-container-under-nav {
-            position: absolute;
-            top: 2.2vw;
-            right: 5vw;
-            height: 25vw;
-        }
-        .btn-buy-now {
-            background-color: rgb(109, 41, 54);
-            color: rgb(255, 255, 255);
-            border: none;
-            border-radius: 2vw;
-            width: 15vw;
-            height: 5vw;
-            font-weight: bolder;
-            font-size: 1.5vw;
-            position: absolute;
-            top: 16vw;
-            left: 7vw;
-            padding: 0vw;
-        }
-        .btn-primary:hover {
-            background-color: rgb(109, 41, 54);
-            box-shadow: rgb(109, 41, 54) 0px 0px 0.5vw;
-        }
+
+            /* container img under navbar */
+
+            .container-pra-under-nav {
+                height: 25.6vw;
+                padding: 4vw 0vw 0vw 7vw;
+                background: white;
+                background-size: 28vw 30vw;
+                position: relative;
+                background-color: #6ac5c5;
+            }
+
+            .text {
+                font-weight: 900;
+                font-size: 3vw;
+                color: rgb(109, 41, 54);
+            }
+
+            .img-container-under-nav {
+                position: absolute;
+                top: 2.2vw;
+                right: 5vw;
+                height: 25vw;
+            }
+            .btn-buy-now {
+                background-color: rgb(109, 41, 54);
+                color: rgb(255, 255, 255);
+                border: none;
+                border-radius: 2vw;
+                width: 15vw;
+                height: 5vw;
+                font-weight: bolder;
+                font-size: 1.5vw;
+                position: absolute;
+                top: 16vw;
+                left: 7vw;
+                padding: 0vw;
+            }
+            .btn-primary:hover {
+                background-color: rgb(109, 41, 54);
+                box-shadow: rgb(109, 41, 54) 0px 0px 0.5vw;
+            }
+            
+            /* main */
+            .conainer-cards {
+                row-gap: 5vw;
+                margin: auto;
+                display: flex;
+                justify-content: space-around;
+                padding: 0px;
+            }
+            .card-img-top {
+                width: 265px;
+                height: 243px;
+            }
+            .card {
+                position: relative;
+                text-align: left;
+                background-color: rgb(245, 245, 245);
+                width: 18rem;
+                border-radius: 25px;
+            }
+            .pric-card {
+                color: red;
+        position: absolute;
+        right: 20px;
+        top: 261px;
+        animation-name: price;
+        animation-iteration-count: infinite;
+        animation-duration: 0.5s;
+                
+            }
         
-        /* main */
-        .conainer-cards {
-            gap: 2vw;
-            row-gap: 2vw;
-            margin: auto;
-            display: flex;
-            justify-content: space-around;
+    
+    
+    @keyframes price {
+        0% {
+            color: black;
         }
-        .card-img-top {
-            width: 265px;
-            height: 243px;
-        }
-        .card {
-            text-align: left;
-            background-color: rgb(245, 245, 245);
-        }
-        .button-Add-To-Cart {
-            border-radius: 40px;
-            padding: 8px 25px 8px 25px;
-            background-color: white;
-            border: solid 1.5px rgb(15, 43, 24);
-            color: rgb(15, 43, 24);
-            font-weight: bolder;
-        }
-        .button-Add-To-Cart:hover {
-            border-radius: 40px;
-            padding: 8px 25px 8px 25px;
-            background-color: rgb(15, 43, 24);
-            border: solid 1.5px ;
-            font-weight: bolder;
-        }
+        100% {
+            color: red
+    }
+    }
+
+            .card i {
+                color: rgb(182, 182, 182);
+            }
+            .card i:hover {
+                color: gold;
+            }
+            .card p {
+                font-size: 12px;
+                margin-top: 8px;
+            }
+
+            .button-Add-To-Cart {
+                border-radius: 40px;
+                padding: 8px 25px 8px 25px;
+                background-color: white;
+                border: solid 1.5px rgb(15, 43, 24);
+                color: rgb(15, 43, 24);
+                font-weight: bolder;
+            }
+            .button-Add-To-Cart:hover {
+                border-radius: 40px;
+                padding: 8px 25px 8px 25px;
+                background-color: rgb(15, 43, 24);
+                border: solid 1.5px ;
+                font-weight: bolder;
+            }
