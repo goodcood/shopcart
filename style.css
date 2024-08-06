@@ -9,11 +9,14 @@
     }
     nav {
         background-color: rgb(230, 230, 230);
-    }
+      .navbar-toggler,
     .button-nav-two {
         background-color: transparent;
         border: none;
-        margin-left: 315px;
+    }
+    .button-nav-two {
+       
+        margin-left: 250px;
     }
     .navbar-nav {
         width: 35vw;
