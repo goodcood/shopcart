@@ -180,9 +180,10 @@
                 font-weight: bolder;
             }
             .button-Add-To-Cart:hover {
-                border-radius: 40px;
-                padding: 8px 25px 8px 25px;
+                .button-Add-To-Cart:hover {
+                box-shadow: rgb(15, 43, 24) 0px 0px 10px;
                 background-color: rgb(15, 43, 24);
-                border: solid 1.5px ;
+            }
+
                 font-weight: bolder;
             }
