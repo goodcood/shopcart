@@ -1,4 +1,4 @@
-            * {
+        * {
             font-weight: 600;
             color: rgb(41, 48, 40);
             font-family: "Chelsea Market", system-ui;
@@ -14,10 +14,6 @@
         .button-nav-two {
             background-color: transparent;
             border: none;
-        }
-        .button-nav-two {
-        
-            margin-left: 250px;
         }
         .navbar-nav {
             width: 35vw;
@@ -69,6 +65,16 @@
             margin: 0.4vw;
             font-size: 0.8vw;
         }
+        /* navbar two */
+
+        #navbar-Supported-Content {
+            top: 7px;
+            position: relative;
+        }
+
+
+        /* container img under navbar */
+
         .container-pra-under-nav {
             height: 25.6vw;
             padding: 4vw 0vw 0vw 7vw;
@@ -140,4 +146,3 @@
             border: solid 1.5px ;
             font-weight: bolder;
         }
- 
