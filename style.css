@@ -1,4 +1,4 @@
-    * {
+      * {
                     font-family: "Chelsea Market", system-ui;
                 }
                 .navbar-toggler,
@@ -198,7 +198,7 @@
                     color: red;
                     position: relative;
                     left: 210px;
-                    top: -44px;
+                    top: -7px;
                     animation-name: price;
                     animation-iteration-count: infinite;
                     animation-duration: 0.5s;
