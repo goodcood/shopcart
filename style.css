@@ -11,19 +11,13 @@
                 
                 }
 
-                                        /* start navbar */
-
+                                         /* start navbar */
                 .container-navbar-one {
                     position: sticky;
                     top: 0px;
                 }
-
-                .container-sm {
-                    padding: 0px;
-
-                }
-
-                /* logo and title brand */
+                
+/*start logo and title brand */
                 .navbar-brand {              
                     width: 15%;
                     height: 0%;
@@ -36,24 +30,21 @@
                     font-size: 1.8vw;
                     font-weight: 900;
                 }
-                /*END logo and title brand */
+/*END logo and title brand */
 
-                
                 .ul-container-li-a-nav-one {
                     width: 106%;
                     gap: 1vw;
                     position: relative;
                     left: 2vw;
-                    
                 }
-            
                 .container-acco-search {
                     font-weight: 100;
                     width: fit-content;
                     margin-right: -0.6vw;
                     }
 
-                    /* start form */
+       /* start form */ 
                     .form-search {
                         position: relative;
                         width: 20vw;
@@ -73,7 +64,6 @@
                     padding-left: 1.5vw;
                     height: 40px;
                 }
-                
                 [type=search]:focus {
                 box-shadow: #000 0px 0px 0.3vw;
                 }
@@ -81,9 +71,9 @@
                     font-size: 0.8vw;
                     font-weight: normal;
                 }
-                /* end form */
+ /* end form */
                 
-                /* start icon account and cart */
+/* start icon account and cart */
                 .container-icon-account-cart {
                     width: 33%;
                     padding-top: 0.2vw;
@@ -147,10 +137,6 @@
                                            /* end section banner */
 
                                          /* start linkes */
-                .container-linkes {
-                padding: 0px;
-                }
-                    
             .linkes-navbar-collapse {
                 top: 7px;
                 position: relative;
